@@ -35,7 +35,7 @@ paths:
             items:
               $ref: '#/definitions/Place'
       tags:
-      - place
+      - places
 definitions:
   Canvas_Button:
     properties:
