@@ -1508,23 +1508,4 @@
           "id": "c7a24688-eb70-4be5-8a10-6a3f52c3247a",
           "name": "getPlaceTopic",
           "request": {
-            "url": "http://graph.facebook.com/v3.0/&#123;place-topic-id&#125;?countunsigned int32=countunsigned%20int32&has_childrenbool=has_childrenbool&icon_urlstring=icon_urlstring&idnumeric string=idnumeric%20string&namestring=namestring&parent_idslistid=parent_idslistid&plural_namestring=plural_namestring&top_subtopic_namesliststring=top_subtopic_namesliststring",
-            "method": "GET",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Place Topic"
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "431e45ff-e429-4f71-aedd-6b5c55d2bcf9"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+            "url": "http://graph.facebook.com/v3.0/&#123;place-topic-id&#125;?countunsigned int32=countunsigned%20int32&has_childrenbool=has_childrenbool&icon_urlstring=icon_urlstring&idnumeric string=idnumeric%20string&namestring=namestring&parent_idslistid=parent_idslistid&plural_namestring=plural_namestring&top_subtopic_namesliststring=top_

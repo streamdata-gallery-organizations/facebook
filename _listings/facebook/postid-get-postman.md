@@ -1508,48 +1508,4 @@
           "id": "8160c8ae-eb36-400c-a786-78f4ac10dcde",
           "name": "getPlaceTopic",
           "request": {
-            "url": "http://graph.facebook.com/v3.0/&#123;place-topic-id&#125;?countunsigned int32=countunsigned%20int32&has_childrenbool=has_childrenbool&icon_urlstring=icon_urlstring&idnumeric string=idnumeric%20string&namestring=namestring&parent_idslistid=parent_idslistid&plural_namestring=plural_namestring&top_subtopic_namesliststring=top_subtopic_namesliststring",
-            "method": "GET",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Place Topic"
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "7fd8aefd-283a-41f3-a466-5298bca153fe"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Posts",
-      "item": [
-        {
-          "id": "32df3dc9-3c07-46a6-af94-e63aae7ea223",
-          "name": "getAdd",
-          "request": {
-            "url": "http://graph.facebook.com/v3.0/post-id?admin_creator=admin_creator&age_max=age_max&age_min=age_min&allow=allow&application=application&call_to_action=call_to_action&can_reply_privately=can_reply_privately&caption=caption&cities=cities&college_years=college_years&context=context&countries=countries&created_time=created_time&deny=deny&description=description&education_statuses=education_statuses&feed_targeting=feed_targeting&friends=friends&from=from&full_picture=full_picture&genders=genders&href=href&icon=icon&id=id&instagram_eligibility=instagram_eligibility&interested_in=interested_in&interests=interests&is_hidden=is_hidden&is_instagram_eligible=is_instagram_eligible&is_published=is_published&length=length&link=link&locales=locales&message=message&message_tags=message_tags&name=name&object_id=object_id&offset=offset&parent_id=parent_id&permalink_url=permalink_url&picture=picture&place=place&privacy=privacy&promotable_id=promotable_id&promotion_status=promotion_status&properties=properties&regions=regions&relationship_statuses=relationship_statuses&shares=shares&source=source&status_type=status_type&story=story&story_tags=story_tags&targeting=targeting&text=text&to=to&type=type&updated_time=updated_time&value=value&with_tags=with_tags",
-            "method": "GET",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "An individual entry in a profile&#039;s feed. The profile could be a user, page, app, or group."
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "1bae0d3a-a05a-45e3-b474-4c6e098a0884"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+            "url": "http://graph.facebook.com/v3.0/&#123;place-topic-id&#125;?countunsigned int32=countunsigned%20int32&has_childrenbool=has_childrenbool&icon_urlstring=icon_urlstring&idnumeric string=idnumeric%20string&namestring=namestring&parent_idslistid=parent_id

@@ -1,17 +1,14 @@
 ---
 name: Facebook
 x-slug: facebook
-description: Facebook is an online social networking service that allows its users
-  to connect with friends and family as well as make new connections. It provides
-  its users with the ability to create a profile, update information, add images,
-  send friend requests, and accept requests from other users. Its features include
-  status update, photo tagging and sharing, and more.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+description: Create an account or log into Facebook. Connect with friends, family
+  and other people you know. Share photos and videos, send messages and get updates.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "3"
 tags: Facebook
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/facebook/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,7 +17,7 @@ apis:
   description: 'This reference describes the /comments edge that is common to multiple
     Graph API nodes. The structure and operations are the same for each node. The
     following objects has a /comments edge:'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;object-id&#125;/comments
   tags: Object,Comments
@@ -32,7 +29,7 @@ apis:
   description: 'This reference describes the /comments edge that is common to multiple
     Graph API nodes. The structure and operations are the same for each node. The
     following objects has a /comments edge:'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;object-id&#125;/comments
   tags: Object,Comments
@@ -45,7 +42,7 @@ apis:
     Graph API nodes. The structure and operations are the same for each node, except
     that for the following nodes, /likes returns only the profile for the current
     user if read with a user access token:'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;object-id&#125;/likes
   tags: Object,Likes
@@ -60,7 +57,7 @@ apis:
     Graph API nodes. The structure and operations are the same for each node, except
     that for the following nodes, /likes returns only the profile for the current
     user if read with a user access token:'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;object-id&#125;/likes
   tags: Object,Likes
@@ -75,7 +72,7 @@ apis:
     Graph API nodes. The structure and operations are the same for each node, except
     that for the following nodes, /likes returns only the profile for the current
     user if read with a user access token:'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;object-id&#125;/likes
   tags: Object,Likes
@@ -88,7 +85,7 @@ apis:
   x-api-slug: facebook
   description: A games achievement type created by a Facebook App. Not to be confused
     with an instance of an achievement.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;achievement-type-id&#125;
   tags: Achievement,Type
@@ -101,7 +98,7 @@ apis:
   x-api-slug: facebook
   description: Represents a photo album. The /&#123;album-id&#125; node returns a
     single album.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;album-id&#125;
   tags: Album
@@ -113,7 +110,7 @@ apis:
 - name: Facebook Get Album Picture
   x-api-slug: facebook
   description: The cover photo of a photo album.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;album-id&#125;/picture
   tags: Album,Picture
@@ -125,7 +122,7 @@ apis:
 - name: Facebook Get Album Photos
   x-api-slug: facebook
   description: The photos in an album on Facebook.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;album-id&#125;/photos
   tags: Album,Photos
@@ -136,7 +133,7 @@ apis:
   x-api-slug: facebook
   description: The /sharedposts edge that is common to multiple Graph API nodes. The
     structure and operations are the same for each node.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;object-id&#125;/sharedposts
   tags: Object,Sharedadds
@@ -148,7 +145,7 @@ apis:
 - name: Facebook Get Canvas Veo
   x-api-slug: facebook
   description: Canvas Video
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;canvas-video-id&#125;
   tags: Canvas,Veo
@@ -160,7 +157,7 @@ apis:
 - name: Facebook Get Application Context
   x-api-slug: facebook
   description: Application Context
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;application-context-id&#125;
   tags: Application,Context
@@ -170,7 +167,7 @@ apis:
 - name: Facebook Get Analytics App Events Export
   x-api-slug: facebook
   description: Analytics App Events Export
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;analytics-app-events-export-id&#125;
   tags: Analytics,App,Events,Export
@@ -180,7 +177,7 @@ apis:
 - name: Facebook Get Application
   x-api-slug: facebook
   description: Application
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;application-id&#125;
   tags: Application
@@ -192,7 +189,7 @@ apis:
 - name: Facebook Get Audience Insights Rule
   x-api-slug: facebook
   description: Audience Insights Rule
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;audience-insights-rule-id&#125;
   tags: Audience,Insights,Rule
@@ -202,7 +199,7 @@ apis:
 - name: Facebook Get Canvas
   x-api-slug: facebook
   description: Canvas
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;canvas-id&#125;
   tags: Canvas
@@ -214,7 +211,7 @@ apis:
 - name: Facebook Get Canvas Button
   x-api-slug: facebook
   description: Canvas Button
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;canvas-button-id&#125;
   tags: Canvas,Button
@@ -226,7 +223,7 @@ apis:
 - name: Facebook Get Canvas Carousel
   x-api-slug: facebook
   description: Canvas Carousel
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;canvas-carousel-id&#125;
   tags: Canvas,Carousel
@@ -238,7 +235,7 @@ apis:
 - name: Facebook Get Canvas Footer
   x-api-slug: facebook
   description: Canvas Footer
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;canvas-footer-id&#125;
   tags: Canvas,Footer
@@ -250,7 +247,7 @@ apis:
 - name: Facebook Get Canvas Header
   x-api-slug: facebook
   description: Canvas Header
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;canvas-header-id&#125;
   tags: Canvas,Header
@@ -262,7 +259,7 @@ apis:
 - name: Facebook Get Canvas Photo
   x-api-slug: facebook
   description: Canvas Photo
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;canvas-photo-id&#125;
   tags: Canvas,Photo
@@ -274,7 +271,7 @@ apis:
 - name: Facebook Get Canvas Product Set
   x-api-slug: facebook
   description: Canvas Product Set
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;canvas-product-set-id&#125;
   tags: Canvas,Product,Set
@@ -286,7 +283,7 @@ apis:
 - name: Facebook Get Canvas Store Locator
   x-api-slug: facebook
   description: Canvas Store Locator
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;canvas-store-locator-id&#125;
   tags: Canvas,Store,Locator
@@ -298,7 +295,7 @@ apis:
 - name: Facebook Get Canvas Text
   x-api-slug: facebook
   description: Canvas Text
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;canvas-text-id&#125;
   tags: Canvas,Text
@@ -312,7 +309,7 @@ apis:
   description: A comment can be made on various types of content on Facebook. Most
     Graph API nodes have a /comments edge that lists all the comments on that object.
     The /&#123;comment-id&#125; node returns a single comment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;comment-id&#125;
   tags: Comment
@@ -326,7 +323,7 @@ apis:
   description: A comment can be made on various types of content on Facebook. Most
     Graph API nodes have a /comments edge that lists all the comments on that object.
     The /&#123;comment-id&#125; node returns a single comment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;comment-id&#125;
   tags: Comment
@@ -340,7 +337,7 @@ apis:
   description: A comment can be made on various types of content on Facebook. Most
     Graph API nodes have a /comments edge that lists all the comments on that object.
     The /&#123;comment-id&#125; node returns a single comment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;comment-id&#125;
   tags: Comment
@@ -353,7 +350,7 @@ apis:
   x-api-slug: facebook
   description: 'This edge allows Pages to reply to Post Comments and Visitor Posts
     with a private Message. It can be used with the following nodes:'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;object-id&#125;/private_replies
   tags: Object,Private,Replies
@@ -365,7 +362,7 @@ apis:
 - name: Facebook Get Conversation
   x-api-slug: facebook
   description: A Facebook Messages conversation between a person and a Facebook Page.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;conversation-id&#125;
   tags: Conversation
@@ -377,7 +374,7 @@ apis:
 - name: Facebook Get Conversation Messages
   x-api-slug: facebook
   description: The messages in a conversation between a person and a page.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;conversation-id&#125;/messages
   tags: Conversation,Messages
@@ -387,7 +384,7 @@ apis:
 - name: Facebook Post Conversation Messages
   x-api-slug: facebook
   description: The messages in a conversation between a person and a page.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;conversation-id&#125;/messages
   tags: Conversation,Messages
@@ -399,7 +396,7 @@ apis:
   description: This endpoint returns metadata about a given access token. This includes
     data such as the user for which the token was issued, whether the token is still
     valid, when it expires, and what permissions the app has for the given user.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//debug_token?input_token=&#123;input-token&#125;
   tags: Debug,Token,Input,Token,Input,Token
@@ -411,7 +408,7 @@ apis:
 - name: Facebook Get Doc
   x-api-slug: facebook
   description: Doc
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;doc-id&#125;
   tags: Doc
@@ -426,7 +423,7 @@ apis:
     change effects all versions of this API. To see referral traffic for your website,
     and demographic details of your visitors, use Facebook Analytics instead. For
     more information, see Referral Insights with Facebook Analytics.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;domain-id&#125;
   tags: Domain
@@ -438,7 +435,7 @@ apis:
 - name: Facebook Get Event
   x-api-slug: facebook
   description: Event
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;event-id&#125;
   tags: Event
@@ -450,7 +447,7 @@ apis:
 - name: Facebook Get Friend List
   x-api-slug: facebook
   description: Friend List
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;friend-list-id&#125;
   tags: Friend,List
@@ -462,7 +459,7 @@ apis:
 - name: Facebook Get Group Admins
   x-api-slug: facebook
   description: This edge was deprecated on April 4th, 2018, and can no longer be used.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;group-id&#125;/admins
   tags: Group,Admins
@@ -474,7 +471,7 @@ apis:
 - name: Facebook Get Group Albums
   x-api-slug: facebook
   description: The photo albums created for a Group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;group-id&#125;/albums
   tags: Group,Albums
@@ -484,7 +481,7 @@ apis:
 - name: Facebook Post Me Albums
   x-api-slug: facebook
   description: The photo albums created for a Group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/albums
   tags: Me,Albums
@@ -494,7 +491,7 @@ apis:
 - name: Facebook Get Group Docs
   x-api-slug: facebook
   description: The documents owned by a Group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;group-id&#125;/docs
   tags: Group,Docs
@@ -506,7 +503,7 @@ apis:
 - name: Facebook Get Group Events
   x-api-slug: facebook
   description: All events that belong to a group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;group-id&#125;/events
   tags: Group,Events
@@ -516,7 +513,7 @@ apis:
 - name: Facebook Get Group Feed
   x-api-slug: facebook
   description: Posts owned by a Group, including status updates and links.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;group-id&#125;/feed
   tags: Group,Feed
@@ -528,7 +525,7 @@ apis:
 - name: Facebook Post Group Feed
   x-api-slug: facebook
   description: Posts owned by a Group, including status updates and links.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;group-id&#125;/feed
   tags: Group,Feed
@@ -540,7 +537,7 @@ apis:
 - name: Facebook Get Group Files
   x-api-slug: facebook
   description: The files uploaded to this group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;group-id&#125;/files
   tags: Group,Files
@@ -550,7 +547,7 @@ apis:
 - name: Facebook Get Group Members
   x-api-slug: facebook
   description: This edge was deprecated on April 4th, 2018, and can no longer be used.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;group-id&#125;/members
   tags: Group,Members
@@ -560,7 +557,7 @@ apis:
 - name: Facebook Get Group Veos
   x-api-slug: facebook
   description: Videos owned by a Facebook Group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;group-id&#125;/videos
   tags: Group,Veos
@@ -573,7 +570,7 @@ apis:
   x-api-slug: facebook
   description: Represents a doc within a Facebook group. The /&#123;group-doc-id&#125;
     node returns a single doc.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;group-doc-id&#125;
   tags: Group,Doc
@@ -585,7 +582,7 @@ apis:
 - name: Facebook Get Life Event
   x-api-slug: facebook
   description: Life Event
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;life-event-id&#125;
   tags: Life,Event
@@ -597,7 +594,7 @@ apis:
 - name: Facebook Get Link
   x-api-slug: facebook
   description: A link shared on Facebook.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;link-id&#125;
   tags: Link
@@ -609,7 +606,7 @@ apis:
 - name: Facebook Delete Link
   x-api-slug: facebook
   description: A link shared on Facebook.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;link-id&#125;
   tags: Link
@@ -621,7 +618,7 @@ apis:
 - name: Facebook Get Live Veo
   x-api-slug: facebook
   description: Live Video
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;live-video-id&#125;
   tags: Live,Veo
@@ -633,7 +630,7 @@ apis:
 - name: Facebook Get Mailing Address
   x-api-slug: facebook
   description: Mailing Address
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;mailing-address-id&#125;
   tags: Mailing,Ress
@@ -646,7 +643,7 @@ apis:
   x-api-slug: facebook
   description: An individual message in Facebook Messenger.  This is a Pages-only
     endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;message-id&#125;
   tags: Message
@@ -658,7 +655,7 @@ apis:
 - name: Facebook Get Message Attachments
   x-api-slug: facebook
   description: Files attached to a message. This is a Pages-only endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;message-id&#125;/attachments
   tags: Message,Attachments
@@ -668,7 +665,7 @@ apis:
 - name: Facebook Get Message Shares
   x-api-slug: facebook
   description: Shared items in a message. This is a Pages-only endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;message-id&#125;/shares
   tags: Message,Shares
@@ -681,7 +678,7 @@ apis:
   x-api-slug: facebook
   description: This represents a milestone on a Facebook Page. The /&#123;milestone-id&#125;
     node returns a single &#039;milestone&#039;.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;milestone-id&#125;
   tags: Milestone
@@ -693,7 +690,7 @@ apis:
 - name: Facebook Native Offer
   x-api-slug: facebook
   description: Native Offer
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0/offer
   tags: Native,Offer
@@ -706,7 +703,7 @@ apis:
   x-api-slug: facebook
   description: An individual unread Facebook notification.  This is an API that&#039;s
     only available for Pages.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;notification-id&#125;
   tags: Notification
@@ -718,7 +715,7 @@ apis:
 - name: Facebook Get Open Graph Action Type
   x-api-slug: facebook
   description: Open Graph Action Type
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;open-graph-action-type-id&#125;
   tags: Open,Graph,Action,Type
@@ -730,7 +727,7 @@ apis:
 - name: Facebook Get Open Graph Context
   x-api-slug: facebook
   description: Open Graph Context
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;open-graph-context-id&#125;
   tags: Open,Graph,Context
@@ -740,7 +737,7 @@ apis:
 - name: Facebook Get Open Graph Object Type
   x-api-slug: facebook
   description: Open Graph Object Type
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;open-graph-object-type-id&#125;
   tags: Open,Graph,Object,Type
@@ -752,7 +749,7 @@ apis:
 - name: Facebook Get Page Admin Note
   x-api-slug: facebook
   description: Page Admin Note
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;page-admin-note-id&#125;
   tags: Page,Admin,Note
@@ -764,7 +761,7 @@ apis:
 - name: Facebook Get Page Call To Action
   x-api-slug: facebook
   description: Page Call To Action
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;page-call-to-action-id&#125;
   tags: Page,Call,Action
@@ -776,7 +773,7 @@ apis:
 - name: Facebook Get Page Label
   x-api-slug: facebook
   description: Page Label
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;page-label-id&#125;
   tags: Page,Label
@@ -788,7 +785,7 @@ apis:
 - name: Facebook Get Pages Platform Component Flow Service Config
   x-api-slug: facebook
   description: Pages Platform Component Flow Service Config
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;pages-platform-component-flow-service-config-id&#125;
   tags: Pages,Platform,Component,Flow,Service,Config
@@ -798,7 +795,7 @@ apis:
 - name: Facebook Get Payment
   x-api-slug: facebook
   description: The details of a payment made in an app using Facebook Payments.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;payment-id&#125;
   tags: Payment
@@ -810,7 +807,7 @@ apis:
 - name: Facebook Post Payment Dispute
   x-api-slug: facebook
   description: Used to settle any payment disputes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;payment-id&#125;/dispute
   tags: Payment,Dispute
@@ -822,7 +819,7 @@ apis:
 - name: Facebook Post Payment Refunds
   x-api-slug: facebook
   description: Used to issue any payment refunds.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;payment-id&#125;/refunds
   tags: Payment,Refunds
@@ -832,7 +829,7 @@ apis:
 - name: Facebook Get Place Tag
   x-api-slug: facebook
   description: Place Tag
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;place-tag-id&#125;
   tags: Place,Tag
@@ -844,7 +841,7 @@ apis:
 - name: Facebook Get Place Topic
   x-api-slug: facebook
   description: Place Topic
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;place-topic-id&#125;
   tags: Place,Topic
@@ -857,7 +854,7 @@ apis:
   x-api-slug: facebook
   description: An individual entry in a profile&#039;s feed. The profile could be
     a user, page, app, or group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//post-id
   tags: Posts
@@ -870,7 +867,7 @@ apis:
   x-api-slug: facebook
   description: An individual entry in a profile&#039;s feed. The profile could be
     a user, page, app, or group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//post-id
   tags: Posts
@@ -883,7 +880,7 @@ apis:
   x-api-slug: facebook
   description: An individual entry in a profile&#039;s feed. The profile could be
     a user, page, app, or group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//post-id
   tags: Posts
@@ -896,7 +893,7 @@ apis:
   x-api-slug: facebook
   description: 'Media content associated with a story or comment. Story attachments
     are accessed from the following endpoints:'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;post-id&#125;/attachments
   tags: Attachments
@@ -906,7 +903,7 @@ apis:
 - name: Facebook Get Promotion Info
   x-api-slug: facebook
   description: Promotion Info
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;promotion-info-id&#125;
   tags: Promotion,Info
@@ -918,7 +915,7 @@ apis:
 - name: Facebook Get Rtb Dynamic Add
   x-api-slug: facebook
   description: Rtb Dynamic Post
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;rtb-dynamic-post-id&#125;
   tags: Rtb,Dynamic
@@ -931,7 +928,7 @@ apis:
   x-api-slug: facebook
   description: An individual game request received by someone, sent by an app or by
     another person.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;request-id&#125;
   tags: Request
@@ -944,7 +941,7 @@ apis:
   x-api-slug: facebook
   description: An individual game request received by someone, sent by an app or by
     another person.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;request-id&#125;
   tags: Request
@@ -956,7 +953,7 @@ apis:
 - name: Facebook Get Sales Promo
   x-api-slug: facebook
   description: Offer
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;sales-promo-id&#125;
   tags: Sales,Promo
@@ -966,7 +963,7 @@ apis:
 - name: Facebook Get Saved Message Response
   x-api-slug: facebook
   description: Saved Message Response
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;saved-message-response-id&#125;
   tags: Saved,Message,Response
@@ -978,7 +975,7 @@ apis:
 - name: Facebook Get Status
   x-api-slug: facebook
   description: A status message in a profile&#039;s feed.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;status-id&#125;
   tags: Status
@@ -990,33 +987,33 @@ apis:
 - name: Facebook Delete From. Status
   x-api-slug: facebook
   description: A status message in a profile&#039;s feed.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;from.id&#125;_&#123;status-id&#125;
   tags: From.,Status
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/facebook/master/_listings/facebook/123fromid125-123statusid125-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/facebook/master/_listings/facebook/123from-id125-123statusid125-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/facebook/master/_listings/facebook/123fromid125-123statusid125-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/facebook/master/_listings/facebook/123from-id125-123statusid125-delete-openapi.md
 - name: Facebook Post From. Status
   x-api-slug: facebook
   description: A status message in a profile&#039;s feed.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;from.id&#125;_&#123;status-id&#125;
   tags: From.,Status
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/facebook/master/_listings/facebook/123fromid125-123statusid125-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/facebook/master/_listings/facebook/123from-id125-123statusid125-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/facebook/master/_listings/facebook/123fromid125-123statusid125-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/facebook/master/_listings/facebook/123from-id125-123statusid125-post-openapi.md
 - name: Facebook Post Test User
   x-api-slug: facebook
   description: A test user associated with a Facebook app. Test users are created
     and associated using the /&#123;app-id&#125;/accounts/test-users edge or in the
     App Dashboard.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;test-user-id&#125;
   tags: Test,User
@@ -1030,7 +1027,7 @@ apis:
   description: A test user associated with a Facebook app. Test users are created
     and associated using the /&#123;app-id&#125;/accounts/test-users edge or in the
     App Dashboard.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;test-user-id&#125;
   tags: Test,User
@@ -1043,7 +1040,7 @@ apis:
   x-api-slug: facebook
   description: The friends of a test user. This is identical to the /&#123;user-id&#125;/friends
     edge aside from the publishing operation explained below.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;test-user-1&#125;/friends/&#123;test-user-2&#125;
   tags: Test,User,1,Friends,Test,User,2
@@ -1057,7 +1054,7 @@ apis:
   description: A Facebook Messages conversation thread. This endpoint is only accessible
     for users that are developers of the app making the request. Pages should use
     the Conversation object.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;thread-id&#125;
   tags: Thread
@@ -1069,7 +1066,7 @@ apis:
 - name: Facebook Get User
   x-api-slug: facebook
   description: User
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;
   tags: User
@@ -1081,7 +1078,7 @@ apis:
 - name: Facebook Get User Context
   x-api-slug: facebook
   description: User Context
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-context-id&#125;
   tags: User,Context
@@ -1091,7 +1088,7 @@ apis:
 - name: Facebook Get Veo
   x-api-slug: facebook
   description: Video
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;video-id&#125;
   tags: Veo
@@ -1103,7 +1100,7 @@ apis:
 - name: Facebook Get Veo Copyright Rule
   x-api-slug: facebook
   description: Video Copyright Rule
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;video-copyright-rule-id&#125;
   tags: Veo,Copyright,Rule
@@ -1113,7 +1110,7 @@ apis:
 - name: Facebook Get Veo List
   x-api-slug: facebook
   description: Video List
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;video-list-id&#125;
   tags: Veo,List
@@ -1125,7 +1122,7 @@ apis:
 - name: Facebook Get With Asset3d
   x-api-slug: facebook
   description: With Asset3d
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;with-asset3d-id&#125;
   tags: Asset3d
@@ -1137,7 +1134,7 @@ apis:
 - name: Facebook Get Work Experience
   x-api-slug: facebook
   description: Work Experience
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;work-experience-id&#125;
   tags: Work,Experience
@@ -1149,7 +1146,7 @@ apis:
 - name: Facebook Get App Request
   x-api-slug: facebook
   description: App Request
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;app-request-id&#125;
   tags: App,Request
@@ -1161,7 +1158,7 @@ apis:
 - name: Facebook Get Async Session
   x-api-slug: facebook
   description: Async Session
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;async-session-id&#125;
   tags: Async,Session
@@ -1173,7 +1170,7 @@ apis:
 - name: Facebook Get User Achievements
   x-api-slug: facebook
   description: User Achievements
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/achievements
   tags: User,Achievements
@@ -1185,7 +1182,7 @@ apis:
 - name: Facebook Get User Ad Studies
   x-api-slug: facebook
   description: User Ad Studies
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/ad_studies
   tags: User,Ad,Studies
@@ -1197,7 +1194,7 @@ apis:
 - name: Facebook Get User Adaccounts
   x-api-slug: facebook
   description: User Adaccounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/adaccounts
   tags: User,Adaccounts
@@ -1209,7 +1206,7 @@ apis:
 - name: Facebook Get User Adcontracts
   x-api-slug: facebook
   description: User Adcontracts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/adcontracts
   tags: User,Adcontracts
@@ -1219,7 +1216,7 @@ apis:
 - name: Facebook Get User Adnetworkanalytics
   x-api-slug: facebook
   description: User Adnetworkanalytics
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/adnetworkanalytics
   tags: User,Adnetworkanalytics
@@ -1229,7 +1226,7 @@ apis:
 - name: Facebook Get User Albums
   x-api-slug: facebook
   description: User Albums
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/albums
   tags: User,Albums
@@ -1239,7 +1236,7 @@ apis:
 - name: Facebook Get User Apprequestformerrecipients
   x-api-slug: facebook
   description: User Apprequestformerrecipients
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/apprequestformerrecipients
   tags: User,Apprequestformerrecipients
@@ -1249,7 +1246,7 @@ apis:
 - name: Facebook Get User Apprequests
   x-api-slug: facebook
   description: User Apprequests
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/apprequests
   tags: User,Apprequests
@@ -1261,7 +1258,7 @@ apis:
 - name: Facebook Get User Asset3ds
   x-api-slug: facebook
   description: User Asset3ds
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/asset3ds
   tags: User,Asset3ds
@@ -1273,7 +1270,7 @@ apis:
 - name: Facebook Get User Assigned Ad Accounts
   x-api-slug: facebook
   description: User Assigned Ad Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/assigned_ad_accounts
   tags: User,Assigned,Ad,Accounts
@@ -1285,7 +1282,7 @@ apis:
 - name: Facebook Get User Assigned Monetization Properties
   x-api-slug: facebook
   description: User Assigned Monetization Properties
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/assigned_monetization_properties
   tags: User,Assigned,Monetization,Properties
@@ -1295,7 +1292,7 @@ apis:
 - name: Facebook Get User Assigned Pages
   x-api-slug: facebook
   description: User Assigned Pages
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/assigned_pages
   tags: User,Assigned,Pages
@@ -1305,7 +1302,7 @@ apis:
 - name: Facebook Get User Assigned Product Catalogs
   x-api-slug: facebook
   description: User Assigned Product Catalogs
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/assigned_product_catalogs
   tags: User,Assigned,Product,Catalogs
@@ -1315,7 +1312,7 @@ apis:
 - name: Facebook Get User Books
   x-api-slug: facebook
   description: User Books
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/books
   tags: User,Books
@@ -1325,7 +1322,7 @@ apis:
 - name: Facebook Get User Business Activities
   x-api-slug: facebook
   description: User Business Activities
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/business_activities
   tags: User,Business,Activities
@@ -1335,7 +1332,7 @@ apis:
 - name: Facebook Get User Businesses
   x-api-slug: facebook
   description: User Businesses
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/businesses
   tags: User,Businesses
@@ -1345,7 +1342,7 @@ apis:
 - name: Facebook Get User Conversations
   x-api-slug: facebook
   description: User Conversations
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/conversations
   tags: User,Conversations
@@ -1355,7 +1352,7 @@ apis:
 - name: Facebook Get User Custom Labels
   x-api-slug: facebook
   description: User Custom Labels
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/custom_labels
   tags: User,Custom,Labels
@@ -1365,7 +1362,7 @@ apis:
 - name: Facebook Get User Domains
   x-api-slug: facebook
   description: User Domains
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/domains
   tags: User,Domains
@@ -1375,7 +1372,7 @@ apis:
 - name: Facebook Get User Events
   x-api-slug: facebook
   description: User Events
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/events
   tags: User,Events
@@ -1385,7 +1382,7 @@ apis:
 - name: Facebook Get User Family
   x-api-slug: facebook
   description: User Family
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/family
   tags: User,Family
@@ -1397,7 +1394,7 @@ apis:
 - name: Facebook Get User Favorite Requests
   x-api-slug: facebook
   description: User Favorite Requests
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/favorite_requests
   tags: User,Favorite,Requests
@@ -1411,7 +1408,7 @@ apis:
   description: 'The feed of posts (including status updates) and links published by
     this person, or by others on this person&#039;s profile. There are other edges
     which provide filtered versions of this edge:'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/feed
   tags: Me,Feed
@@ -1425,7 +1422,7 @@ apis:
   description: 'The feed of posts (including status updates) and links published by
     this person, or by others on this person&#039;s profile. There are other edges
     which provide filtered versions of this edge:'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/feed
   tags: Me,Feed
@@ -1437,7 +1434,7 @@ apis:
 - name: Facebook Get User Friendlists
   x-api-slug: facebook
   description: User Friendlists
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/friendlists
   tags: User,Friendlists
@@ -1447,7 +1444,7 @@ apis:
 - name: Facebook Get Me Friendrequests
   x-api-slug: facebook
   description: A person&#039;s pending friend requests.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/friendrequests
   tags: Me,Friendrequests
@@ -1459,7 +1456,7 @@ apis:
 - name: Facebook Get User Games
   x-api-slug: facebook
   description: User Games
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/games
   tags: User,Games
@@ -1469,7 +1466,7 @@ apis:
 - name: Facebook Get User Groups
   x-api-slug: facebook
   description: User Groups
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/groups
   tags: User,Groups
@@ -1480,7 +1477,7 @@ apis:
   x-api-slug: facebook
   description: As of October 6th, 2015, this endpoint is no longer available.  Please
     consider using the /user-id/feed edge instead.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/home
   tags: Me,Home
@@ -1492,7 +1489,7 @@ apis:
 - name: Facebook Get User S For Apps
   x-api-slug: facebook
   description: User Ids For Apps
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/ids_for_apps
   tags: User,S,Apps
@@ -1504,7 +1501,7 @@ apis:
 - name: Facebook Get User S For Business
   x-api-slug: facebook
   description: User IDs for Business
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/ids_for_business
   tags: User,S,Business
@@ -1516,7 +1513,7 @@ apis:
 - name: Facebook Get User S For Pages
   x-api-slug: facebook
   description: User Ids For Pages
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/ids_for_pages
   tags: User,S,Pages
@@ -1526,7 +1523,7 @@ apis:
 - name: Facebook Get Me Inbox
   x-api-slug: facebook
   description: A person&#039;s Facebook Messages inbox.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/inbox
   tags: Me,Inbox
@@ -1538,7 +1535,7 @@ apis:
 - name: Facebook Get User Invitable Friends
   x-api-slug: facebook
   description: User Invitable Friends
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/invitable_friends
   tags: User,Invitable,Friends
@@ -1550,7 +1547,7 @@ apis:
 - name: Facebook Get User Leadgen Forms
   x-api-slug: facebook
   description: User Leadgen Forms
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/leadgen_forms
   tags: User,Leadgen,Forms
@@ -1562,7 +1559,7 @@ apis:
 - name: Facebook Get User Live Veos
   x-api-slug: facebook
   description: User Live Videos
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/live_videos
   tags: User,Live,Veos
@@ -1576,7 +1573,7 @@ apis:
   description: A feed of posts and photos that include location information and in
     which this person has been tagged. This is useful for constructing a chronology
     of places that the person has visited.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/locations
   tags: Me,Locations
@@ -1588,7 +1585,7 @@ apis:
 - name: Facebook Get User Movies
   x-api-slug: facebook
   description: User Movies
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/movies
   tags: User,Movies
@@ -1598,7 +1595,7 @@ apis:
 - name: Facebook Get User Music
   x-api-slug: facebook
   description: User Music
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/music
   tags: User,Music
@@ -1608,7 +1605,7 @@ apis:
 - name: Facebook Get Me Outbox
   x-api-slug: facebook
   description: Items in a person&#039;s Facebook Messages outbox.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/outbox
   tags: Me,Outbox
@@ -1620,7 +1617,7 @@ apis:
 - name: Facebook Get User Permissions
   x-api-slug: facebook
   description: User Permissions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/permissions
   tags: User,Permissions
@@ -1630,7 +1627,7 @@ apis:
 - name: Facebook Get User Personal Ad Accounts
   x-api-slug: facebook
   description: User Personal Ad Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/personal_ad_accounts
   tags: User,Personal,Ad,Accounts
@@ -1642,7 +1639,7 @@ apis:
 - name: Facebook Get User Photos
   x-api-slug: facebook
   description: User Photos
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/photos
   tags: User,Photos
@@ -1652,7 +1649,7 @@ apis:
 - name: Facebook Get User Picture
   x-api-slug: facebook
   description: User Picture
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/picture
   tags: User,Picture
@@ -1664,7 +1661,7 @@ apis:
 - name: Facebook Get User Promotable Domains
   x-api-slug: facebook
   description: User Promotable Domains
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/promotable_domains
   tags: User,Promotable,Domains
@@ -1674,7 +1671,7 @@ apis:
 - name: Facebook Get User Promotable Events
   x-api-slug: facebook
   description: User Promotable Events
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/promotable_events
   tags: User,Promotable,Events
@@ -1684,7 +1681,7 @@ apis:
 - name: Facebook Get User Request History
   x-api-slug: facebook
   description: User Request History
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/request_history
   tags: User,Request,History
@@ -1696,7 +1693,7 @@ apis:
 - name: Facebook Get User Rich Media Documents
   x-api-slug: facebook
   description: User Rich Media Documents
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/rich_media_documents
   tags: User,Rich,Media,Documents
@@ -1707,7 +1704,7 @@ apis:
   x-api-slug: facebook
   description: As of April 4, 2018, this endpoint only returns an empty data set.
     Please see the changelog for more information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/scores
   tags: Me,Scores
@@ -1720,7 +1717,7 @@ apis:
   x-api-slug: facebook
   description: As of April 4, 2018, this endpoint only returns an empty data set.
     Please see the changelog for more information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/scores
   tags: Me,Scores
@@ -1733,7 +1730,7 @@ apis:
   x-api-slug: facebook
   description: As of April 4, 2018, this endpoint only returns an empty data set.
     Please see the changelog for more information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//me/scores
   tags: Me,Scores
@@ -1745,7 +1742,7 @@ apis:
 - name: Facebook Get User Session Keys
   x-api-slug: facebook
   description: User Session Keys
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/session_keys
   tags: User,Session,Keys
@@ -1755,7 +1752,7 @@ apis:
 - name: Facebook Get User Stream Filters
   x-api-slug: facebook
   description: User Stream Filters
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/stream_filters
   tags: User,Stream,Filters
@@ -1767,7 +1764,7 @@ apis:
 - name: Facebook Get User Taggable Friends
   x-api-slug: facebook
   description: User Taggable Friends
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/taggable_friends
   tags: User,Taggable,Friends
@@ -1779,7 +1776,7 @@ apis:
 - name: Facebook Get User Tagged Places
   x-api-slug: facebook
   description: User Tagged Places
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/tagged_places
   tags: User,Tagged,Places
@@ -1789,7 +1786,7 @@ apis:
 - name: Facebook Get User Television
   x-api-slug: facebook
   description: User Television
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/television
   tags: User,Television
@@ -1801,7 +1798,7 @@ apis:
 - name: Facebook Get User Threads
   x-api-slug: facebook
   description: User Threads
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/threads
   tags: User,Threads
@@ -1811,7 +1808,7 @@ apis:
 - name: Facebook Get User Veo Broadcasts
   x-api-slug: facebook
   description: User Video Broadcasts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/video_broadcasts
   tags: User,Veo,Broadcasts
@@ -1820,12 +1817,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/facebook/master/_listings/facebook/123userid125video-broadcasts-get-openapi.md
 - name: Facebook
   x-api-slug: facebook
-  description: Facebook is an online social networking service that allows its users
-    to connect with friends and family as well as make new connections. It provides
-    its users with the ability to create a profile, update information, add images,
-    send friend requests, and accept requests from other users. Its features include
-    status update, photo tagging and sharing, and more.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Facebook
@@ -1849,6 +1843,8 @@ x-common:
   url: https://www.facebook.com/business/news/rss/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/facebook
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/facebook
 - type: x-developer
   url: https://developers.facebook.com/
 - type: x-forum

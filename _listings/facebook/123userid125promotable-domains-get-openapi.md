@@ -3804,7 +3804,7 @@ paths:
       summary: Delete From. Status
       description: A status message in a profile&#039;s feed.
       operationId: deleteFrom.Status
-      x-api-path-slug: 123fromid125-123statusid125-delete
+      x-api-path-slug: 123from-id125-123statusid125-delete
       responses:
         200:
           description: OK
@@ -3815,7 +3815,7 @@ paths:
       summary: Post From. Status
       description: A status message in a profile&#039;s feed.
       operationId: postFrom.Status
-      x-api-path-slug: 123fromid125-123statusid125-post
+      x-api-path-slug: 123from-id125-123statusid125-post
       responses:
         200:
           description: OK
